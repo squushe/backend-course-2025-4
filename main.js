@@ -17,3 +17,11 @@ if (!fs.existsSync(options.input)) {
 }
 let server = http.createServer();
 server.listen(options.port, options.host);
+
+// const fileContent = fs.readFile(options.input, "utf-8", (err, data) => {
+//   if (err) throw err;
+//   console.log(data);
+// });
+
+// const data = JSON.parse(fileContent);
+// let workData = data;
